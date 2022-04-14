@@ -28,8 +28,9 @@ QyWexinClient = YolQyWeixin::Client.new(
 ```
 configuration：
 
-`corpid`：https://developer.work.weixin.qq.com/document/path/90665#corpid
-`secret`：https://developer.work.weixin.qq.com/document/path/90665#secret
+`corpid`：[https://developer.work.weixin.qq.com/document/path/90665#corpid](https://developer.work.weixin.qq.com/document/path/90665#corpid)
+
+`secret`：[https://developer.work.weixin.qq.com/document/path/90665#secret](https://developer.work.weixin.qq.com/document/path/90665#secret)
 
 ****RedisClient为redis实例，如果没有配置可传nil，建议使用redis，考虑到access_token获取次数限制；****
 
@@ -65,4 +66,4 @@ QyWexinClient.get_user_info(userid)
 ## 支持
 
 如果你觉得我的gem对你有帮助，欢迎在issue讨论；
-https://github.com/luojie92/qy_weixin/issues
+[https://github.com/luojie92/qy_weixin/issues](https://github.com/luojie92/qy_weixin/issues)
