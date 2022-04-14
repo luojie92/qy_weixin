@@ -61,6 +61,24 @@ QyWexinClient.get_user_info(userid)
 # => {"errcode"=>0, "errmsg"=>"ok", "userid"=>"333", "name"=>"罗xx", "department"=>[233], "position"=>"系统开发工程师", "mobile"=>"185xxxx0248", "gender"=>"1", "email"=>"", "avatar"=>"", "status"=>1, "isleader"=>0, "extattr"=>{}} 
 ```
 
+get department_list:
+```ruby
+QyWexinClient.department_list(department_id)
+
+# =>  {"errcode"=>0, "errmsg"=>"ok", "department"=>[{"id"=>2, "name"=>"业务部", "parentid"=>1, "order"=>100000000, "department_leader"=>[]}]}
+
+```
+`department_id`：不传或传0获取所有部门；
+
+get get_users_by_department:
+```ruby
+QyWexinClient.get_users_by_department(department_id, fetch_child)
+
+# => {"errcode"=>0, "errmsg"=>"ok", "userlist"=>[{"userid"=>"ChenxYun", "name"=>"陈x云", "department"=>[4]}, {"userid"=>"ZhuxDian", "name"=>"朱x点", "department"=>[4]}, {"userid"=>"LuoxJie", "name"=>"罗x杰", "department"=>[4]}]} 
+
+```
+`fetch_child`：1/0：是否递归获取子部门下面的成员，不传默认0；
+
 ---
 
 ## 支持
