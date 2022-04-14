@@ -3,7 +3,7 @@ Shop middleware for QyWeixin
 
 https://rubygems.org/gems/qy_weixin
 
-[![Gem Version](https://badge.fury.io/rb/yol_qy_weixin.svg)](http://badge.fury.io/rb/qy_weixin)
+[![Gem Version](https://badge.fury.io/rb/qy_weixin.svg)](http://badge.fury.io/rb/qy_weixin)
 
 **有问题请及时提issue**
 
