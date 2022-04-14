@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.version       = QyWeixin::VERSION
   spec.homepage      = 'https://github.com/luojie92/qy_weixin'
   spec.authors       = ['luojie92']
-  spec.email         = ['luojie@yolanda.hk']
+  spec.email         = ['444530861@qq.com']
   spec.summary       = 'Shop middleware for QyWeixin.'
   spec.description   = ''
   spec.license       = 'MIT'
