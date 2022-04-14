@@ -65,5 +65,5 @@ QyWexinClient.get_user_info(userid)
 
 ## 支持
 
-如果你觉得我的gem对你有帮助，欢迎在issue讨论；
-[https://github.com/luojie92/qy_weixin/issues](https://github.com/luojie92/qy_weixin/issues)
+  如果你觉得我的gem对你有帮助，可以动动小手点个`starred`🌟🌟🌟，:star:感谢关注:star:
+
