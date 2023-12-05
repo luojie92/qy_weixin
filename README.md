@@ -20,7 +20,7 @@ gem 'qy_weixin'
 You can connect to QyWexinClient by instantiating the Redis class:
 
 ```ruby
-QyWexinClient = YolQyWeixin::Client.new(
+QyWexinClient = QyWeixin::Client.new(
   corpid : qy_weixin_config["corpid"],
   secret : qy_weixin_config["secret"],
   redis  : RedisClient
